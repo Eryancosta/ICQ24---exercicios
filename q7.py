@@ -1,0 +1,10 @@
+a = int(input("digite a parte real de z1 "))
+b = int(input("digite a parte imaginária de z1 "))
+c = int(input("digite a parte real de z2 "))
+d = int(input("digite a parte imaginária de z1 "))
+
+z1 = complex(a, b)
+z2 = complex(c, d)
+print("Leia-se z_C como O conjugado do complexo z")
+print(f"z1_C+z2_C = {(z1.conjugate())+(z2.conjugate())} e (z1 +z2)_C = {((z1+z2).conjugate())}\n")
+print(f"z1_C*z2_C = {(z1.conjugate())*(z2.conjugate())} e (z1*z2)_C = {((z1*z2).conjugate())}\n")
